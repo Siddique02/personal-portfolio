@@ -13,6 +13,56 @@ html{
   scroll-behavior: smooth;
 }
 
+.animate{
+  position: relative;
+}
+.animate::before{
+  content: "";
+  animation: words 20s infinite;
+}
+@keyframes words {
+  1%,20%{
+    content: "Front_End Developer"
+  }
+  21%,40%{
+    content: "UI/UX Designer"
+  }
+  41%,60%{
+    content: "Web Developer"
+  }
+  61%,80%{
+    content: "Website creater"
+  }
+  81%,100%{
+    content: "Wordpress Developer"
+  }
+}
+
+
+.animate::after{
+  content: "";
+  height: 100%;
+  width: 0;
+  background-color: rgb(17 24 39);
+  border-left: 4px solid white;
+  position: absolute;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+@keyframes cursor {
+  to{
+    border-left: 4px solid rgb(17 24 39);
+  }
+}
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+  }
+}
+
 
 .icons{
   border: 2px solid #14b5ff;
@@ -65,6 +115,15 @@ html{
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
+.project-card:hover .project-text{
+  display: block;
+}
+.project-card:hover .project-img{
+  opacity: 0.5;
+}
+.project-text{
+  display: none;
 }
 
 

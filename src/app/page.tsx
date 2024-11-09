@@ -17,7 +17,7 @@ export default function Home() {
         <div className="intro">
           <div className="">
             <h1 className="text-4xl font-bold text-white">Hey! I am Siddique</h1>
-            <h2 className="text-2xl font-bold text-white">and I am a <span className="text-blue-300">Front-End developer</span></h2>
+            <h2 className="text-2xl font-bold text-white">and I am a <span className="animate text-blue-300 animate"></span></h2>
             <p className="text-gray-400 w-96">A developer, who can create visually appealing and responsive websites using modern technologies.</p>
           </div>
 
