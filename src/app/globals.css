@@ -2,26 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html{
+  scroll-behavior: smooth;
+}
+
+
+.icons{
+  border: 2px solid #14b5ff;
+  box-shadow: 0 0 10px #00eaff;
+}
+.icons:hover{
+  background-color: #00eaff;
+  transform:scale(0.8)
+}
+.icons:hover .svgs{
+  fill: rgb(17 24 39);
+}
+
+
+
+.btn{
+  box-shadow: 0 0 10px #00eaff;
+  overflow: hidden;
+}
+.hire-btn{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.trans{
+  left: -50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: left 0.5s ease;
+}
+.hire-btn:hover .trans{
+  left: 50%;
+}
+.hire-btn:hover .opper{
+  color: black; 
+  z-index: 9;
+}
+.opper{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+.project-card{
+  border: 2px solid #00eaff;
+  background: url("/public/main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+
+.nav-items:hover{
+  color: rgb(172, 211, 255);
+  text-shadow:  0 0 10px #00eaff, 0 0 20px #00eaff, 0 0 30px #00eaff, 0 0 40px #00eaff;
+}
+
+
+
+
+@media only screen and (max-width: 910px) {
+  .first-sec{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .second-sec{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .fifth-sec{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
   }
 }
