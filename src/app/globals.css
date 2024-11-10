@@ -120,7 +120,7 @@ html{
   display: block;
 }
 .project-card:hover .project-img{
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .project-text{
   display: none;
@@ -135,7 +135,7 @@ html{
 
 
 
-@media only screen and (max-width: 910px) {
+@media only screen and (max-width: 911px) {
   .first-sec{
     display: flex;
     justify-content: center;
@@ -150,5 +150,31 @@ html{
     display: flex;
     justify-content: center;
     gap: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+  .nav-options{
+    display: none;
+  }
+  .dropdown{
+    display: block;
+    flex-direction: column;
+    box-shadow: 0 0 10px #00eaff;
+  }
+  .drop-ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .drop-btn{
+    display: flex;
+  }
+  .navbar{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .first-sec{
+    padding-right: 45px;
   }
 }

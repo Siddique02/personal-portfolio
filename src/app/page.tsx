@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <div className="cont w-[100%] object-cover">
 
-      <div id="home" className="first-sec bg-gray-900 w-[100%] min-h-[90vh] flex flex-wrap justify-between py-40 px-16">
+      <div id="home" className="first-sec overflow-hidden bg-gray-900 w-[100%] min-h-[90vh] flex flex-wrap justify-between py-40 px-16">
 
         <div className="intro">
-          <div className="">
+          <div>
             <h1 className="text-4xl font-bold text-white">Hey! I am Siddique</h1>
             <h2 className="text-2xl font-bold text-white">and I am a <span className="animate text-blue-300 animate"></span></h2>
             <p className="text-gray-400 w-96">A developer, who can create visually appealing and responsive websites using modern technologies.</p>
