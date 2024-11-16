@@ -48,7 +48,7 @@ export default function Projects() {
           <Link href="https://nikeedition.vercel.app/">
             <div className="project-card m-[10px] w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg w-[100%] h-[100%] object-cover" src="/project6.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Digital Currency</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Nike Special Edition</div>
               <div className="project-text text-base text-center mt-5 z-10 text-white">Step up your style and comfort with our premium Nike shoes. Designed for performance, durability, and unmatched comfort, perfect for any occasion.</div>
             </div>
           </Link>
