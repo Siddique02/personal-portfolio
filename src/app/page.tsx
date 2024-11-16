@@ -16,7 +16,7 @@ export default function Home() {
 
         <div className="intro">
           <div>
-            <h1 className="text-4xl font-bold text-white">Hey! I am Siddique</h1>
+            <h1 className="text-4xl font-bold text-white">Hi! I am Siddique</h1>
             <h2 className="text-2xl font-bold text-white">and I am a <span className="animate text-blue-300 animate"></span></h2>
             <p className="text-gray-400 w-96">A developer, who can create visually appealing and responsive websites using modern technologies.</p>
           </div>
@@ -31,18 +31,19 @@ export default function Home() {
           </div>
 
           <div className="top-btns flex gap-5 mt-5">
-            <button className="btn bg-blue-300 text-gray-900 rounded-md px-6 py-3">Check CV</button>
-            <button className="btn hire-btn relative bg-gray-900 text-white rounded-md px-6 py-3"><div className="trans absolute bg-blue-300 h-[100%] w-[100%] rounded-md"></div><h3 className="opper absolute">Hire me now!</h3></button>
+            <Link href="https://my-cv-three-rosy.vercel.app/"><button className="btn bg-blue-300 text-gray-900 rounded-md px-6 py-3">Check CV</button></Link>
+
+            <Link href="https://www.linkedin.com/in/muhammad-siddique-56b522267/"><button className="btn hire-btn relative bg-gray-900 text-white rounded-md px-6 py-3 h-[100%] w-[100%]"><div className="trans absolute bg-blue-300 h-[100%] w-[100%] rounded-md"></div><h3 className="opper absolute">Hire me now!</h3></button></Link>
           </div>
 
           <div className="flex gap-5 mt-5">
-            <Link href="" className="icons relative bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Facebook/></Link>
+            <Link href="https://www.facebook.com/" className="icons relative bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Facebook/></Link>
 
-            <Link href="" className="icons bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Linkedin/></Link>
+            <Link href="https://www.linkedin.com/in/muhammad-siddique-56b522267/" className="icons bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Linkedin/></Link>
 
-            <Link href="" className="icons bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Github/></Link>
+            <Link href="https://github.com/Siddique02" className="icons bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Github/></Link>
             
-            <Link href="" className="icons bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Gmail/></Link>
+            <Link href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWslzCwlGfnvfxwHmGVGgrpgCsHXMSrQCfwdRjFJzgkqsnBqJGnMcrqSzMZwmFJrWXTRrZpqB" className="icons bg-gray-900 text-white border-blue-300 rounded-md px-5 py-3"><Gmail/></Link>
           </div>
 
         </div>

@@ -116,14 +116,18 @@ html{
   background-position: center;
   position: relative;
 }
+.project-text{
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease, visibility 1s ease;
+}
 .project-card:hover .project-text{
   display: block;
+  opacity: 1;
+  visibility: visible;
 }
 .project-card:hover .project-img{
   opacity: 0.4;
-}
-.project-text{
-  display: none;
 }
 
 
