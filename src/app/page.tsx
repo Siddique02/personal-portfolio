@@ -18,7 +18,7 @@ export default function Home() {
           <div>
             <h1 className="text-4xl font-bold text-white">Hi! I am Siddique</h1>
             <h2 className="text-2xl font-bold text-white">and I am a <span className="animate text-blue-300 animate"></span></h2>
-            <p className="text-gray-400 w-96">A developer, who can create visually appealing and responsive websites using modern technologies.</p>
+            <p className="text-gray-400 max-w-96">A developer, who can create visually appealing and responsive websites using modern technologies.</p>
           </div>
 
           <div className="flex gap-5 mt-7">
