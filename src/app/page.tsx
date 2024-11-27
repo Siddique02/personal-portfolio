@@ -94,7 +94,7 @@ export default function Home() {
 
       <div id="contact" className="fifth-sec relative w-[100%] min-h-[90vh] bg-gray-900 flex flex-col gap-10 pt-16 items-center">
         <h1 className="text-center text-blue-300 font-bold text-4xl">Contact Us</h1>
-        <form className="w-full px-32" action="submit">
+        <form className="last-form w-full px-32" action="submit">
           <div className="input grid grid-cols-1 sm:grid-cols-2 gap-5">
             <input className="rounded-md h-[40px] bg-gray-700 px-2" type="text" placeholder="Full name" required />
             <input className="rounded-md h-[40px] bg-gray-700 px-2" type="email" placeholder="Email" required />
