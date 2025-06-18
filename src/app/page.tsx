@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div className="about-me w-96">
           <h2 className="text-4xl text-blue-300 font-bold">About Me</h2>
-          <p className="text-xl text-white"> I am a fresh and motivated Front-End Developer with a passion for creating visually appealing and user-friendly websites. I am eager to contribute my skills to build seamless and responsive web experiences.</p>
+          <p className="text-xl text-white"> I am a fresh and motivated Web Developer with a passion for creating visually appealing and user-friendly websites. I am eager to contribute my skills to build seamless and responsive web experiences.</p>
           <div className="mt-10">
             <button className="btn bg-blue-300 text-black rounded-md px-6 py-3">Read More!</button>
           </div>
