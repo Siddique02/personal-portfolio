@@ -109,7 +109,7 @@ export default function Home() {
 
 
         <div className="footer w-[100%] h-[1px] bg-white absolute bottom-8 opacity-30">
-          <h3 className="text-white text-center text-sm mt-[7px]">© 2024 Your Website. All rights reserved.</h3>
+          <h3 className="text-white text-center text-sm mt-[7px]">© 2025 Your Website. All rights reserved.</h3>
         </div>
 
       </div>

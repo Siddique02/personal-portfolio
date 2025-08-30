@@ -13,6 +13,14 @@ export default function Projects() {
               <div className="project-text text-base text-center mt-5 z-10 text-white">Discover stylish and functional home furniture at Avion. Elevate every room with quality pieces designed for comfort, elegance, and modern living.</div>
             </div>
           </Link>
+          
+          <Link href="https://my-ecommerce-ten-xi.vercel.app/">
+            <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
+              <Image className="project-img absolute -z-1 rounded-lg w-[100%] h-[100%] object-cover" src="/project3.jpg" width={400} height={400} alt="" />
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Project Lorum</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Build your dream projects with our expert construction services. From planning to execution, we ensure quality, durability, and timely delivery for every structure.</div>
+            </div>
+          </Link>
 
           <Link href="https://siddique02-library-manager-fullstack-main-iuoajx.streamlit.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
@@ -38,13 +46,6 @@ export default function Projects() {
             </div>
           </Link>
 
-          <Link href="https://hackathon-class.vercel.app/">
-            <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
-              <Image className="project-img absolute -z-1 rounded-lg w-[100%] h-[100%] object-cover" src="/project3.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Project Lorum</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Build your dream projects with our expert construction services. From planning to execution, we ensure quality, durability, and timely delivery for every structure.</div>
-            </div>
-          </Link>
 
           <Link href="https://number-guessing-game-lsqcrl8gqh6r5h8uyrumcx.streamlit.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
