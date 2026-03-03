@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="main-pic">
-          <Image className="rounded-full" src="/main.jpg" alt="" width={400} height={400}></Image>
+          <Image className="rounded-full" src="/main.webp" alt="" width={400} height={400}></Image>
         </div>
 
       </div>
@@ -59,11 +59,11 @@ export default function Home() {
 
       <div id="about" className="second-sec bg-gray-700 w-[100%] min-h-[90vh] flex flex-wrap justify-between px-12 py-28 gap-24">
         <div className="main-pic flex justify-center items-center">
-          <Image className="rounded-full object-contain" src="/main.jpg" alt="" width={350} height={350}></Image>
+          <Image className="rounded-full object-contain" src="/main.webp" alt="" width={350} height={350}></Image>
         </div>
         <div className="about-me w-96">
           <h2 className="text-4xl text-blue-300 font-bold">About Me</h2>
-          <p className="text-xl text-white"> I am a fresh and motivated Web Developer with a passion for creating visually appealing and user-friendly websites. I am eager to contribute my skills to build seamless and responsive web experiences.</p>
+          <p className="text-xl text-white"> I am a Junior Web Developer with a passion for creating visually appealing and user-friendly websites. I am eager to contribute my skills to build seamless and responsive web experiences.</p>
           <div className="mt-10">
             <button className="btn bg-blue-300 text-black rounded-md px-6 py-3">Read More!</button>
           </div>
