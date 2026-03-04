@@ -17,32 +17,32 @@ export default function Projects() {
           <Link href="https://get-fit-eight.vercel.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg w-[100%] h-[100%] object-cover" src="/project2.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Project Lorum</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Build your dream projects with our expert construction services. From planning to execution, we ensure quality, durability, and timely delivery for every structure.</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">One Generation Gym</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Transform your fitness journey with our dynamic gym website. Powerful, motivating, and easy to navigate—discover workouts, trainers, and memberships designed to help you achieve your goals.</div>
             </div>
           </Link>
 
           <Link href="https://karachi-cadet-school.vercel.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg w-[100%] h-[100%] object-cover" src="/project3.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Personal Library Manager</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Organize and enjoy your book collection with ease. Manage titles, track reading progress, and discover new favorites—all in one smart, personal library system.</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Karachi Cadet School</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Empowering young minds with discipline and excellence, Karachi Cadet School provides a strong academic foundation in a structured and inspiring environment. Shaping future leaders through education, character, and commitment.</div>
             </div>
           </Link>
 
           <Link href="https://e-library-9b99f.web.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg w-[100%] h-[100%] object-cover" src="/project4.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Resume Builder</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Create professional, customizable resumes effortlessly with our user-friendly resume builder. Design polished layouts, upload photos, and download your resume instantly, all while enjoying a seamless and efficient experience.</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">E-Library</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Explore a world of knowledge with our E-Library. Fast, organized, and accessible anytime—discover books, resources, and learning materials designed to expand your mind and fuel your curiosity.</div>
             </div>
           </Link>
 
           <Link href="https://daily-affirmation-mindfulness.web.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg w-[100%] h-[100%] object-cover" src="/project5.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Personal portfolio</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Build modern, responsive websites that captivate users. Our development process ensures functionality, speed, and seamless user experiences.</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Daily Affirmation & Mindfulness</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Start each day with positivity and balance through our Daily Affirmation & Mindfulness App. Simple, calming, and inspiring—build confidence, reduce stress, and nurture a peaceful mindset.</div>
             </div>
           </Link>
 
@@ -50,8 +50,8 @@ export default function Projects() {
           <Link href="https://mentorship-program-mvp.web.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg z-10 w-[100%] h-[100%] object-cover" src="/project6.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Number Guessing Game</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Test your luck and sharpen your intuition with our Number Guessing Game. Fun, simple, and addictive—see if you can guess the right number in the fewest tries!</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Mentorship Program MVP</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Accelerate your growth with our Mentorship Program MVP App. Smart, structured, and easy to use—connect mentors and mentees, track progress, and build meaningful professional relationships.</div>
             </div>
           </Link>
 
@@ -59,8 +59,8 @@ export default function Projects() {
           <Link href="https://team-collaboration-kanban.web.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg z-10 w-[100%] h-[100%] object-cover" src="/project7.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Number Guessing Game</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Test your luck and sharpen your intuition with our Number Guessing Game. Fun, simple, and addictive—see if you can guess the right number in the fewest tries!</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Team Collaboration Kanban</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Simplify project management with our Team Collaboration Kanban Web App. Clean, responsive, and intuitive—collaborate in real time and keep every task moving forward seamlessly.</div>
             </div>
           </Link>
 
@@ -68,8 +68,8 @@ export default function Projects() {
           <Link href="https://portfolio-website-genera-24d5b.web.app/">
             <div className="project-card m-[10px] max-w-[420px] min-h-[350px] bg-gray-700 p-[10px] rounded-lg flex flex-col justify-center items-center py-6 px-5">
               <Image className="project-img absolute -z-1 rounded-lg z-10 w-[100%] h-[100%] object-cover" src="/project8.jpg" width={400} height={400} alt="" />
-              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Number Guessing Game</div>
-              <div className="project-text text-base text-center mt-5 z-10 text-white">Test your luck and sharpen your intuition with our Number Guessing Game. Fun, simple, and addictive—see if you can guess the right number in the fewest tries!</div>
+              <div className="project-text mt-[10px] font-bold text-xl z-10 text-white">Portfolio Website Generator</div>
+              <div className="project-text text-base text-center mt-5 z-10 text-white">Build stunning, customizable portfolios in minutes with our Portfolio Website Generator. Simple, fast, and powerful—create a professional online presence without writing a single line of code.</div>
             </div>
           </Link>
 
